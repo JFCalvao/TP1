@@ -1,1 +1,75 @@
-
+body{
+    background-image: url(imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    margin: 0px;
+}
+html, body{
+    min-height: 100%;
+    max-height: 100%;
+}
+div{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair';
+    background-image: linear-gradient( to top, rgba(73, 58, 105, 0), rgba(73, 58, 105,1) );
+}
+main{
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 617px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+h3,p{
+    font-family: 'Playfair';
+    color: white;
+    text-align: justify;
+    margin-left: 150px;
+}
+h3{
+    font-size: 20px;
+    margin-left: 265px;
+}
+p{
+    width: 500px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+img{
+    width: 350px;
+}
+#modelos{
+    position: relative;
+    float: right;
+    bottom: 350px;
+    right: 300px;
+}
+#seta{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    bottom: 45px;
+    left: 1000px;
+}
+@font-face {
+    font-family: Playfair;
+    src: url(Playfair-Italic-VariableFont_opsz\,wdth\,wght.ttf) format(truetype),
+    url(Playfair-VariableFont_opsz\,wdth\,wght.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
