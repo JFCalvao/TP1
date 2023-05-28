@@ -16,6 +16,7 @@ div{
     background-image: linear-gradient( to top, rgba(73, 58, 105, 0), rgba(73, 58, 105,1) );
 }
 main{
+    position: absolute;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
