@@ -23,6 +23,22 @@ main{
     width: 100%;
     backdrop-filter: blur(2px);
 }
+table{
+    position: absolute;
+    margin: 0px;
+    background-color: rgb(19, 18, 18);
+    bottom: 0%;
+    width: 100%;
+}
+tr{
+    display: flex;
+    justify-content: space-around;
+    max-width: 55%;
+}
+td, a{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
 h1{
     font-size: 50px;
     margin-top: 0px;
