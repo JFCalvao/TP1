@@ -66,6 +66,7 @@ p{
 }
 img{
     width: 350px;
+    border-radius: 5%;
 }
 #modelos{
     position: relative;
