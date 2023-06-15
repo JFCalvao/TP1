@@ -16,28 +16,90 @@ div{
     background-image: linear-gradient( to top, rgba(73, 58, 105, 0), rgba(73, 58, 105,1) );
 }
 main{
-    position: absolute;
+    position: fixed;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
     backdrop-filter: blur(2px);
 }
-table{
+#atomo_legal{
     position: absolute;
-    margin: 0px;
-    background-color: rgb(19, 18, 18);
-    bottom: 0%;
+    left: 10%;
+    top: 7%;
+    width: 10%;
+    animation: flutuando 0.7s ease-in-out infinite alternate;
+}
+#atomo_legal:hover{
+    animation: girando 1.2s ease-in-out 1 forwards;
+}
+.menu{
+    position: relative;
+    bottom: 80%;
+    background-color: rgb(85, 82, 82);
+    border-radius: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    border: 0px;
+    padding: 0px;
+}
+#seta_menu{
+    transform: rotate(0.25turn);
+    width: 7%;
+    height: 7%;
+    margin-right: 7%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    transition: 200ms;
+}
+th{
+    padding: 0%;
+    margin: 0% 5% 0% 5%;
+    color: white;
+    font-size: medium;
+}
+.menu:hover #seta_menu{
+    transform: rotate(0.5turn);
+    transition: 200ms;
+}
+.menu:hover td{
+    left: auto;
+    position: relative;
+}
+.menu:hover{
+    box-shadow: -2px 0px rgb(19, 18, 18);
+    border-bottom-left-radius: 20px; 
+}
+tr
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+}
+tbody{
+    box-shadow: 0px 2px rgb(19, 18, 18);    
+    border-bottom-left-radius: 12px; 
+    border-bottom-right-radius: 12px;
     width: 100%;
 }
-tr{
-    display: flex;
-    justify-content: space-around;
-    max-width: 55%;
+td{
+    background-color: #616161;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 500%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 td, a{
     color: rgb(0, 162, 255);
     text-decoration: none;
+}
+#ultima{
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
 }
 h1{
     font-size: 50px;
@@ -71,7 +133,7 @@ img{
 #modelos{
     position: relative;
     float: right;
-    bottom: 350px;
+    bottom: 55%;
     right: 300px;
 }
 #seta{
@@ -85,6 +147,14 @@ img{
     border-radius: 50%;
     bottom: 45px;
     left: 1000px;
+}
+@keyframes flutuando {
+    from {top: 7%;}
+    to {top: 10%;}
+}
+@keyframes girando {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
 @font-face {
     font-family: Playfair;
