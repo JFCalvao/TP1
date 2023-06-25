@@ -109,8 +109,9 @@ a{
     color: rgb(0, 162, 255);
     text-decoration: none;
 }
-#textoPrincipal{
-    margin-left: 10vh;
+
+article{
+    margin-left: 2vh;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -128,7 +129,7 @@ h2{
     margin-top: 0px;
     margin-bottom: 100px;
 }
-h3,p{
+h3, p, li{
     font-family: 'Playfair';
     color: white;
     text-align: justify;
