@@ -147,10 +147,10 @@ img{
     border-radius: 5%;
 }
 #modelos{
-    position: relative;
+    position: absolute;
     float: right;
-    bottom: 55%;
-    right: 10vh;
+    bottom: 15%;
+    right: 7%;
 }
 #seta{
     position: relative;
