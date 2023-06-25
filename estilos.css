@@ -96,9 +96,9 @@ main{
 #seta_menu{
     transform: rotate(0.25turn);
     width: auto;
-    height: 2.2vh;
+    height: 2vh;
     margin-right: 7%;
-    margin-top: 2%;
+    margin-top: 2.5%;
     margin-bottom: 0%;
     transition: 200ms;
 }
@@ -109,7 +109,6 @@ a{
     color: rgb(0, 162, 255);
     text-decoration: none;
 }
-
 article{
     margin-left: 2vh;
     display: flex;
@@ -144,26 +143,24 @@ p{
     width: 80vh;
 }
 img{
-    width: 350px;
+    width: 25%;
     border-radius: 5%;
 }
 #modelos{
-    position: absolute;
+    position: relative;
     float: right;
-    bottom: 15%;
     right: 7%;
 }
-#seta{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    border: 2px solid white;
-    border-radius: 50%;
-    bottom: 45px;
-    left: 1000px;
+#div_modelos{
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 15vh;
+    width: 100%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 @keyframes flutuando {
     from {top: 50vh;}
