@@ -27,11 +27,8 @@ main{
     position: absolute;
     width: 10%;
     animation: flutuando 0.7s ease-in-out infinite alternate;
-    top: 50vh;
-    right: 100vh;
-}
-#atomo_legal:hover{
-    animation: girando 1.2s ease-in-out 1 forwards;
+    top: 45vh;
+    right: 45%;
 }
 .menu{
     background-color: rgb(90, 85, 85);
