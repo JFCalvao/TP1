@@ -7,17 +7,36 @@
 </head>
 
 <body>
+    <script src="menu.js"></script>
     <main id="pag2">
+        <div class="menu" onmouseover="aparecerMenu()" onmouseout="sumirMenu()">
+            <div id="acionador">
+              <img id="seta_menu" src="imgs/triangulo.png" />
+              <h4>Modelos atômicos</h4>
+            </div>
+            <div id="itens" hidden>
+              <div><a href="index.html">Pagina inicial</a></div>
+              <div><a href="pagina2.html">Modelo de Dalton</a></div>
+              <div><a href="pagina3.html">Modelo de Thomson</a></div>
+              <div><a href="pagina4.html">Modelo de Rutherford</a></div>
+              <div id="ultimo"><a href="pagina5.html">Modelo de Bohr</a></div>
+            </div>
+          </div>
+          <div id="cabecalho">
+            <h1>Modelos atomicos</h1>
+            <h2>Trabalho TP1 - <a href="creditos.html">CREDITOS</a></h2>
+        </div>
         <article>
-            <h3 id="cabecalho">
-                O Modelo de Dalton
-            </h3>
-            <p>
-                O modelo de Dalton, proposto pelo químico britânico John Dalton no início do século XIX, foi um
-                marco importante no desenvolvimento da química moderna. Esse modelo foi uma das primeiras tentativas
-                de explicar a estrutura dos átomos e como eles se combinam para formar diferentes substâncias.
-            </p>
-            <img id="modeloDeDalton" src="imgs/modelo_de_Dalton.png" />
+            <div id="texto1">
+                <h3>
+                    O Modelo de Dalton
+                </h3>
+                <p>
+                    O modelo de Dalton, proposto pelo químico britânico John Dalton no início do século XIX, foi um
+                    marco importante no desenvolvimento da química moderna. Esse modelo foi uma das primeiras tentativas
+                    de explicar a estrutura dos átomos e como eles se combinam para formar diferentes substâncias.
+                </p>
+                <img id="modeloDeDalton" src="imgs/modelo_de_Dalton.png" />
             </div>
             <div id="texto2">
                 <h3>
