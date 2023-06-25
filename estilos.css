@@ -19,6 +19,7 @@ main{
     position: fixed;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
     height: 100%;
     width: 100%;
     backdrop-filter: blur(2px);
@@ -180,7 +181,7 @@ img{
 }
 
 /* pagian 2 (mudancas especificas) */
-#pag2{
+#pag2{  
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto 1fr;
