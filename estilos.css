@@ -1,312 +1,333 @@
-body{
-    background-image: url(imgs/background.jpg);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0px;
+body {
+  background-image: url(imgs/background.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
 }
-html, body{
-    min-height: 100%;
-    max-height: 100%;
+html,
+body {
+  min-height: 100%;
+  max-height: 100%;
 }
-header{
-    color: white;
-    text-align: center;
-    font-family: 'Playfair';
-    background-image: linear-gradient( to top, rgba(73, 58, 105, 0), rgba(73, 58, 105,1) );
+header {
+  color: white;
+  text-align: center;
+  font-family: "Playfair";
+  background-image: linear-gradient(
+    to top,
+    rgba(73, 58, 105, 0),
+    rgba(73, 58, 105, 1)
+  );
 }
-main{
-    margin: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    backdrop-filter: blur(2px);
+main {
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(2px);
 }
-#atomo_legal{
-    position: absolute;
-    width: 10%;
-    animation: flutuando 0.7s ease-in-out infinite alternate;
-    top: 45vh;
-    right: 45%;
-    z-index: 8;
+#atomo_legal {
+  position: absolute;
+  width: 10%;
+  animation: flutuando 0.7s ease-in-out infinite alternate;
+  top: 45vh;
+  right: 45%;
+  z-index: 8;
 }
-.menu{
-    background-color: rgb(90, 85, 85);
-    color: white;
-    border-radius: 10px;
-    margin-left: 40%;
-    margin-right: 40%;
-    width: 20%;
-    position: absolute;
-    display: flex;
-    top: 23vh;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 9;
-    margin: 2px solid black;
+.menu {
+  background-color: rgb(90, 85, 85);
+  color: white;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 20%;
+  position: absolute;
+  display: flex;
+  top: 23vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9;
+  margin: 2px solid black;
 }
-.menu:hover #seta_menu{
-    transform: rotate(0.5turn);
-    transition: 200ms;
+.menu:hover #seta_menu {
+  transform: rotate(0.5turn);
+  transition: 200ms;
 }
-#acionador{
-    display: flex;
-    justify-items: baseline;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-bottom: 0vh;
-    width: 60%;
-    padding-right: 10%;
+#acionador {
+  display: flex;
+  justify-items: baseline;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 0vh;
+  width: 60%;
+  padding-right: 10%;
 }
-#itens{
-    width: 100%;
-    display: none;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgb(95, 95, 95);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+#itens {
+  width: 100%;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(95, 95, 95);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-#itens div{
-    width: 100%;
+#itens div {
+  width: 100%;
 }
-#ultimo{
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+#ultimo {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-#itens div a{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
+#itens div a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }
-#itens div:hover{
-    background-color: rgb(91, 91, 197);
+#itens div:hover {
+  background-color: rgb(91, 91, 197);
 }
-#acionador h4{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-top: 3%;
-    margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
+#acionador h4 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 3%;
+  margin: 0%;
+  font-family: "Times New Roman", Times, serif;
 }
-#seta_menu{
-    transform: rotate(0.25turn);
-    width: auto;
-    height: 2vh;
-    margin-right: 7%;
-    margin-top: 2.5%;
-    margin-bottom: 0%;
-    transition: 200ms;
+#seta_menu {
+  transform: rotate(0.25turn);
+  width: auto;
+  height: 2vh;
+  margin-right: 7%;
+  margin-top: 2.5%;
+  margin-bottom: 0%;
+  transition: 200ms;
 }
-div a{
-    width: 100%;
+div a {
+  width: 100%;
 }
-a{
-    color: rgb(0, 162, 255);
-    text-decoration: none;
+a {
+  color: rgb(0, 162, 255);
+  text-decoration: none;
 }
-article{
-    margin-left: 2vh;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    width: 80vh;
+article {
+  margin-left: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 80vh;
 }
-h1{
-    font-size: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 15px;
+h1 {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
 }
-h2{
-    margin-top: 0px;
-    margin-bottom: 100px;
+h2 {
+  margin-top: 0px;
+  margin-bottom: 100px;
 }
-h3, p, li, table{
-    font-family: 'Playfair';
-    color: white;
-    text-align: justify;
+h3,
+p,
+li,
+table {
+  font-family: "Playfair";
+  color: white;
+  text-align: justify;
 }
-h3{
-    font-size: 20px;
-    width: auto;
+h3 {
+  font-size: 20px;
+  width: auto;
 }
-p{
-    margin-bottom: 30px;
-    text-align: center;
-    width: 80vh;
+p {
+  margin-bottom: 30px;
+  text-align: center;
+  width: 80vh;
 }
-img{
-    width: 50%;
-    border-radius: 5%;
+img {
+  width: 50%;
+  border-radius: 5%;
 }
-#modelos{
-    position: relative;
-    right: 7%;
+#modelos {
+  position: relative;
+  right: 7%;
 }
-#div_modelos{
-    float: right;
-    display: flex;
-    position: absolute;
-    right: 0;
-    width: 50%;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
+#div_modelos {
+  float: right;
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
 }
-#corpoInferiorDoTexto{
-    display: flex;
-    flex-direction: row;
+#corpoInferiorDoTexto {
+  display: flex;
+  flex-direction: row;
 }
 @keyframes flutuando {
-    from {top: 50vh;}
-    to {top: 40vh;}
+  from {
+    top: 50vh;
+  }
+  to {
+    top: 40vh;
+  }
 }
 @keyframes girando {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 @font-face {
-    font-family: Playfair;
-    src: url(Playfair-Italic-VariableFont_opsz\,wdth\,wght.ttf) format(truetype),
-    url(Playfair-VariableFont_opsz\,wdth\,wght.ttf) format(truetype);
-    font-style: normal;
-    font-weight: normal;
+  font-family: Playfair;
+  src: url(Playfair-Italic-VariableFont_opsz\wdth\wght.ttf) format(truetype),
+    url(Playfair-VariableFont_opsz\wdth\wght.ttf) format(truetype);
+  font-style: normal;
+  font-weight: normal;
 }
 
 /* pagian 2 (mudancas especificas) */
-#texto1{
-    position: relative;
-    grid-column: 1/1;
+#texto1 {
+  position: relative;
+  grid-column: 1/1;
 }
-#autores{
-    margin: 10vh;
-    width: 45vh;
-    height: 45vh;
-    grid-column: 3/3;
+#autores {
+  margin: 10vh;
+  width: 45vh;
+  height: 45vh;
+  grid-column: 3/3;
 }
-#dividirOAtomo{
-    position: relative;
-    height: 50vh;
-    width: 50vh;
-    grid-column: 1/1;
+#dividirOAtomo {
+  position: relative;
+  height: 50vh;
+  width: 50vh;
+  grid-column: 1/1;
 }
-#seta{
-    position: relative;
-    height: 20vh;
-    width: auto;
-    grid-column: 2/2;
+#seta {
+  position: relative;
+  height: 20vh;
+  width: auto;
+  grid-column: 2/2;
 }
-#texto2{
-    position: relative;
-    margin-top: 5vh;
-    grid-column: 3/3;
+#texto2 {
+  position: relative;
+  margin-top: 5vh;
+  grid-column: 3/3;
 }
-#texto3{
-    position: relative;
-    grid-column: 1/1;
+#texto3 {
+  position: relative;
+  grid-column: 1/1;
 }
-#texto4{
-    position: relative;
-    grid-column: 3/3;
+#texto4 {
+  position: relative;
+  grid-column: 3/3;
 }
-#pintura{
-    position: relative;
-    grid-column: 2/2;
-    width: 30vh;
+#pintura {
+  position: relative;
+  grid-column: 2/2;
+  width: 30vh;
 }
-#texto5{
-    position: relative;
-    grid-column: 1/1;
+#texto5 {
+  position: relative;
+  grid-column: 1/1;
 }
-#texto6{
-    position: relative;
-    grid-column: 3/3;
+#texto6 {
+  position: relative;
+  grid-column: 3/3;
 }
-#duas_setas{
-    position: relative;
-    grid-column: 2/2;
+#duas_setas {
+  position: relative;
+  grid-column: 2/2;
 }
-#porta{
-    position: relative;
-    grid-column: 3/3;
-    margin-bottom: 5vh;
+#porta {
+  position: relative;
+  grid-column: 3/3;
+  margin-bottom: 5vh;
 }
-#articlePrimario{
-    display: grid;
-    grid-template-columns: 40% 20% 40%;
-    margin: 0vh;
-    width: 100%;
+#articlePrimario {
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  margin: 0vh;
+  width: 100%;
 }
-#ultimoDiv{
-    margin: 0%;
-    padding: 0vh;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    z-index: -1;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(2px);
+#ultimoDiv {
+  margin: 0%;
+  padding: 0vh;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
 }
 /* pagina 3 mudancas especificas */
-#Dalton{
-    position: relative;
-    height: 40vh;
-    width: auto;
-    grid-column: 1/1;
-    margin-bottom: 10vh;
+#Dalton {
+  position: relative;
+  height: 40vh;
+  width: auto;
+  grid-column: 1/1;
+  margin-bottom: 10vh;
 }
-#contribuicao{
-    position: relative;
-    width: 30vh;
-    top: -5vh;
+#contribuicao {
+  position: relative;
+  width: 30vh;
+  top: -5vh;
 }
-#pag3_texto2{
-    position: relative;
-    margin: 0vh;
-    grid-column: 3/3;
+#pag3_texto2 {
+  position: relative;
+  margin: 0vh;
+  grid-column: 3/3;
 }
-#pag3_texto2 h3{
-    margin-top: 0vh;
+#pag3_texto2 h3 {
+  margin-top: 0vh;
 }
-#seta_tracejada{
-    position: relative;
-    width: 35vh;
-    height: 30vh;
-    top: -5vh;
-    rotate: -15deg;
+#seta_tracejada {
+  position: relative;
+  width: 35vh;
+  height: 30vh;
+  top: -5vh;
+  rotate: -15deg;
 }
-#modelo_pudim{
-    position: relative;
-    width: 60vh;
-    grid-column: 3/3;
+#modelo_pudim {
+  position: relative;
+  width: 60vh;
+  grid-column: 3/3;
 }
+/* pagina de conclusao */
 iframe {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
-table, th, td{
-    border: 1px solid azure;
-    border-collapse: collapse;
+table,
+th,
+td {
+  border: 1px solid azure;
+  border-collapse: collapse;
 }
-th, td{
-    padding-top: 6px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+th,
+td {
+  padding-top: 6px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-th, td {
-    text-align: center;
+th,
+td {
+  text-align: center;
 }
