@@ -130,7 +130,7 @@ h2{
     margin-top: 0px;
     margin-bottom: 100px;
 }
-h3, p, li{
+h3, p, li, table{
     font-family: 'Playfair';
     color: white;
     text-align: justify;
@@ -267,4 +267,24 @@ img{
     z-index: -1;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
+}
+
+iframe {
+    width: 50%;
+    height: 50%;
+}
+
+table, th, td{
+    border: 1px solid azure;
+    border-collapse: collapse;
+}
+th, td{
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th, td {
+    text-align: center;
 }
