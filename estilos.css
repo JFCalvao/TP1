@@ -188,7 +188,7 @@ img{
     position: relative;
     grid-column: 1/1;
 }
-#Dalton{
+#autores{
     margin: 10vh;
     width: 45vh;
     height: 45vh;
@@ -258,7 +258,39 @@ img{
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
 }
-
+/* pagina 3 mudancas especificas */
+#Dalton{
+    position: relative;
+    height: 40vh;
+    width: auto;
+    grid-column: 1/1;
+    margin-bottom: 10vh;
+}
+#contribuicao{
+    position: relative;
+    width: 30vh;
+    top: -5vh;
+}
+#pag3_texto2{
+    position: relative;
+    margin: 0vh;
+    grid-column: 3/3;
+}
+#pag3_texto2 h3{
+    margin-top: 0vh;
+}
+#seta_tracejada{
+    position: relative;
+    width: 35vh;
+    height: 30vh;
+    top: -5vh;
+    rotate: -15deg;
+}
+#modelo_pudim{
+    position: relative;
+    width: 60vh;
+    grid-column: 3/3;
+}
 iframe {
     width: 50%;
     height: 50%;
